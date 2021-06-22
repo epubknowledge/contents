@@ -1,0 +1,26 @@
+{
+  "name": "contents",
+  "version": "0.0.1",
+  "description": "NPM Package that gets ePub contents from a passed directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epubknowledge/contents.git"
+  },
+  "keywords": [
+    "epub",
+    "contents"
+  ],
+  "author": "codingChewie",
+  "bugs": {
+    "url": "https://github.com/epubknowledge/contents/issues"
+  },
+  "homepage": "https://github.com/epubknowledge/contents#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1"
+  }
+}
