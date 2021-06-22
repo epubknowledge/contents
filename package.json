@@ -38,6 +38,7 @@
     "url": "https://github.com/epubknowledge/contents/issues"
   },
   "homepage": "https://github.com/epubknowledge/contents#readme",
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.29.0",
     "prettier": "^2.3.1"
