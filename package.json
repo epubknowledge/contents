@@ -1,7 +1,7 @@
 {
   "name": "@epubknowledge/contents",
   "version": "0.0.1",
-  "description": "NPM Package that gets ePub contents from a passed directory",
+  "description": "NPM Package that gets ePub contents from a passed directory as string",
   "main": "bin/index.js",
   "bin": {
     "ekContents": "bin/index.js",
@@ -23,7 +23,7 @@
     "!win32"
   ],
   "scripts": {
-    "lint": "eslint src/",
+    "lint": "eslint",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -51,7 +51,9 @@
     "url": "https://github.com/epubknowledge/contents/issues"
   },
   "homepage": "https://github.com/epubknowledge/contents#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.1"
+  },
   "devDependencies": {
     "eslint": "^7.29.0",
     "jest": "^27.0.5",
