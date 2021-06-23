@@ -23,7 +23,17 @@
     "!win32"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "__tests__",
+      "bin",
+      "src"
+    ]
   },
   "repository": {
     "type": "git",
@@ -41,6 +51,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.29.0",
+    "jest": "^27.0.5",
     "prettier": "^2.3.1"
   }
 }
