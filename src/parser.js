@@ -1,18 +1,22 @@
 const path = require('path')
 const glob = require('glob')
+const chalk = require('chalk')
+const log = console.log
 
 const cutter = require('./cutter')
 const fileSize = require('./fileSize')
 
 const parser = dir => {
-  const cut = path.basename(dir)
   return new Promise((res, rej) => {
+    if (typeof dir !== 'string') return rej()
+
     glob(
       path.resolve(`${dir}/**/*`),
       { strict: false, silent: true, nodir: true },
       (err, files) => {
-        if (err) return rej(err)
+        if (err) return rej()
 
+        const cut = path.basename(dir)
         const filesObject = files.map(file => {
           const regexp = /^(.*[\\\/])(.*)$/
           const match = regexp.exec(file)
