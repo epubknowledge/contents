@@ -2,11 +2,7 @@ const options = (obj, args) => {
   // console.log('obj', typeof obj === 'object' && obj !== null)
   // console.log('args:',args)
 
-  try {
-    return Array.isArray(args) === true ? modMulti(obj, args) : modSingle(obj, args)
-  } catch (e) {
-    console.log('Error: ', e)
-  }
+  return Array.isArray(args) === true ? modMulti(obj, args) : modSingle(obj, args)
 }
 
 const modSingle = async (obj, value) => {
