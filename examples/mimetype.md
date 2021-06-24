@@ -2,13 +2,13 @@
 
 Possible parameters for getting mimetype
 
-## As String
+### As String
 
 ```javascript
 contents(dir, 'mimetype')
 ```
 
-## As Array
+### As Array
 
 ```javascript
 contents(dir, ['mimetype'])
@@ -20,7 +20,7 @@ as array with different types:
 contents(dir, ['mimetype', 'mime'])
 ```
 
-## Returns
+### Returns
 
 ```bash
 [

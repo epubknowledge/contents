@@ -24,10 +24,10 @@ Result:
 Returns object with everything
 ```
 
-## Other recipes
+## Other Recipes
 
 - [mimetype](mimetype.md)
-- [](.md)
+- [Meta Inf](meta-inf.md)
 - [](.md)
 - [](.md)
 - [](.md)
