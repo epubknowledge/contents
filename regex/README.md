@@ -4,4 +4,4 @@ If you would like to test your regex included in the directory is a _regex.js_ f
 
 When testing with **regex101** make sure the `FLAVOR` is set to `ECMAScript (JavaScript)`:
 
-![flavor](./flavor.png)
+![flavor](https://github.com/epubknowledge/contents/blob/main/regex/flaver.png)
