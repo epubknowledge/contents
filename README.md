@@ -28,4 +28,4 @@ When `directory` is passed into `contents()` it will validate if is directory an
 
 ### Arguments
 
-Second option takes regex. If the regex passed is invalid the then returned object will be empty. For further help with regex visit [Examples](example.md).
+Second option takes regex. If the regex passed is invalid the then returned object will be empty. For further help with regex visit [Examples](examples.md).
