@@ -16,6 +16,8 @@ yarn:
 yarn add @epubknowledge/contents
 ```
 
+If either command cause an error in the terminal reference this [issue](https://github.com/epubknowledge/contents/issues/1).
+
 ### Use
 
 ```javascript
