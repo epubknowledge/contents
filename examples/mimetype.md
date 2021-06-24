@@ -31,12 +31,5 @@ contents(dir, ['mimetype', 'mime'])
     size: 20,
     dirname: 'moby-dick',
   },
-  {
-    path: { full: '/mimetype', file: '/' },
-    filename: 'mimetype',
-    ext: null,
-    size: 20,
-    dirname: 'moby-dick',
-  },
 ]
 ```
