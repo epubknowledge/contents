@@ -12,6 +12,23 @@ Currently this takes two options:
 contents(directory, arguments)
 ```
 
+## Returned Object
+
+Explained parameters that are returned and example uses an OPF file:
+
+```bash
+{
+  path: {
+    full: '/OPS/package.opf', ## Full path of file that includes filename
+    file: '/OPS/' ## Path without filename
+  },
+  filename: 'package.opf', ## The name of the file
+  ext: '.opf', ## The file extension, will default to null on hidden or files that dont have an extension
+  size: 22175, ## The size of the file
+  dirname: 'OPS' ## The directory the file or folder is located in
+}
+```
+
 ### Directory
 
 The first option `directory` is **required** and accepts two path types:
