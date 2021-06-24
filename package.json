@@ -28,7 +28,7 @@
     "coverage": "jest --coverage"
   },
   "jest": {
-    "verbose": true,
+    "verbose": false,
     "roots": [
       "__tests__",
       "bin",

@@ -6,6 +6,11 @@ test('Test length', async () => {
   expect(parsed.length).toEqual(154)
 })
 
+test('Test if returned is object', async () => {
+  const parsed = await parser(testDir)
+  expect(typeof parsed === 'object' && parsed !== null).toEqual(true)
+})
+
 test(`Bad dir passed`, async () => {
   try {
     const mock = jest.spyOn(process, 'exit').mockImplementation(() => {})
