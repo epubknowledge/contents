@@ -1,7 +1,5 @@
 const path = require('path')
 const glob = require('glob')
-const chalk = require('chalk')
-const log = console.log
 
 const cutter = require('./cutter')
 const fileSize = require('./fileSize')
