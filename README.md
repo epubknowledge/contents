@@ -32,6 +32,6 @@ Second option takes regex and it can be either a string or array. If the regex p
 
 ## Disclaimer
 
-Test ePub source files used in the regex examples and as a test case come from IDPF's epub example "**Moby Dick**"[^ref].
+Test ePub source files used in the regex examples and as a test case come from IDPF's epub example "**Moby Dick**"<sup>[\*](#ref)</sup>.
 
-[^ref]: [IDPF](https://github.com/IDPF/epub3-samples) | "_[Moby Dick](https://github.com/IDPF/epub3-samples/tree/main/30/moby-dick)_"
+<a name="ref">Reference</a>: [IDPF](https://github.com/IDPF/epub3-samples) | "_[Moby Dick](https://github.com/IDPF/epub3-samples/tree/main/30/moby-dick)_"
