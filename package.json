@@ -5,7 +5,8 @@
   "main": "bin/index.js",
   "bin": {
     "ekContents": "bin/index.js",
-    "contents": "bin/index.js"
+    "contents": "bin/index.js",
+    "@epubknowledge/contents": "bin/index.js"
   },
   "publishConfig": {
     "access": "restricted"
