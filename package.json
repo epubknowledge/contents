@@ -1,7 +1,7 @@
 {
   "name": "@epubknowledge/contents",
   "version": "0.0.1",
-  "description": "NPM Package that gets ePub contents from a passed directory as string",
+  "description": "NPM Package that gets ePub contents from a passed directory and returns as object",
   "main": "bin/index.js",
   "bin": {
     "ekContents": "bin/index.js",

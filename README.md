@@ -28,4 +28,10 @@ When `directory` is passed into `contents()` it will validate if is directory an
 
 ### Arguments
 
-Second option takes regex. If the regex passed is invalid the then returned object will be empty. For further help with regex visit [Examples](examples.md).
+Second option takes regex and it can be either a string or array. If the regex passed is invalid the then returned object will be empty. For further help with regex visit [Examples](examples.md).
+
+## Disclaimer
+
+Test ePub source files used in the regex examples and as a test case come from IDPF's epub example "**Moby Dick**"[^ref].
+
+[^ref]: [IDPF](https://github.com/IDPF/epub3-samples) | "_[Moby Dick](https://github.com/IDPF/epub3-samples/tree/main/30/moby-dick)_"

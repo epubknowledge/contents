@@ -1,4 +1,4 @@
-# Regex examples
+# Regex Examples
 
 Examples are intended to assist on how to pass regex to `content()` second argument. Tests below are based on IDPF's "**Moby Dick**[^ref]" epub 3 example.
 
@@ -23,5 +23,15 @@ Result:
 ```javascript
 Returns object with everything
 ```
+
+## Other recipes
+
+- [mimetype](mimetype.md)
+- [](.md)
+- [](.md)
+- [](.md)
+- [](.md)
+- [](.md)
+- [](.md)
 
 [^ref]: [IDPF](https://github.com/IDPF/epub3-samples) | "_[Moby Dick](https://github.com/IDPF/epub3-samples/tree/main/30/moby-dick)_"
