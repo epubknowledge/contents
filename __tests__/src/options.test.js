@@ -14,6 +14,11 @@ test(`Test for 'mimetype' as argument`, async () => {
   expect(testRun.length).toEqual(1)
 })
 
+test(`Test removal of duplicates`, async () => {
+  const testRun = await short(testDir, ['mime', 'mimetype', 'etype'])
+  expect(testRun.length).toEqual(1)
+})
+
 test(`Test for array ['mimetype','css'] as argument`, async () => {
   const testRun = await short(testDir, ['mimetype', 'css'])
   expect(testRun.length).toEqual(2)
