@@ -34,7 +34,7 @@ contents(directory, arguments)
 
 ## Returned Object
 
-Explained parameters that are returned and example uses an OPF file:
+Explained parameters returned and with an example from _Moby Dick's_ _package.opf_:
 
 ```bash
 {
