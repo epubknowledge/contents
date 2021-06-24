@@ -4,6 +4,24 @@ This package is a foundation block intended to be used for other NPM packages an
 
 ## Install
 
+npm:
+
+```javascript
+npm i @epubknowledge/contents
+```
+
+yarn:
+
+```javascript
+yarn add @epubknowledge/contents
+```
+
+### Use
+
+```javascript
+const contents = require('@epubknowledge/contents')
+```
+
 ## Options
 
 Currently this takes two options:
