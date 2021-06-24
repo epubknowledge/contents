@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-const fileSize = f => {
+module.exports = f => {
   try {
     const sizer = fs.statSync(f).size
     return Number.isInteger(sizer) ? sizer : new Error()
@@ -10,5 +10,3 @@ const fileSize = f => {
     process.exit(1)
   }
 }
-
-module.exports = fileSize

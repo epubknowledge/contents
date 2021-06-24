@@ -1,6 +1,6 @@
 const chalk = require('chalk')
 
-const cutter = (p, fat) => {
+module.exports = (p, fat) => {
   try {
     const trimmed = p.split(fat)
     return trimmed.length === 2 ? trimmed[1] : trimmed[0]
@@ -9,5 +9,3 @@ const cutter = (p, fat) => {
     process.exit(1)
   }
 }
-
-module.exports = cutter

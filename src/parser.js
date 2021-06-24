@@ -4,7 +4,7 @@ const glob = require('glob')
 const cutter = require('./cutter')
 const fileSize = require('./fileSize')
 
-const parser = dir => {
+module.exports = dir => {
   return new Promise((res, rej) => {
     if (typeof dir !== 'string') return rej()
 
@@ -35,5 +35,3 @@ const parser = dir => {
     )
   })
 }
-
-module.exports = parser
