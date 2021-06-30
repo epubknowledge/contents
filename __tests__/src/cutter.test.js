@@ -24,3 +24,13 @@ test(`Test error should console log`, async () => {
     expect(console.log).toHaveBeenCalledWith('Error: trim error')
   } catch {}
 })
+
+test(`Test trim`, async () => {
+  try {
+    await cutter(testPath)
+    expect(console.log).toHaveBeenCalledWith('Error: trim error')
+
+    const cut = await cutter(testPath, 'some')
+    expect(cut).toEqual('/weird/path')
+  } catch {}
+})
