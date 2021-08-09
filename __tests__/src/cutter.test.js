@@ -1,4 +1,4 @@
-const path = require('path')
+path = require('path')
 
 const cutter = require('../../src/cutter')
 const testDir = require('../setup')
@@ -15,6 +15,7 @@ test(`Test cut missing second parameter`, async () => {
     const mock = jest.spyOn(process, 'exit').mockImplementation(() => {})
     await cutter([])
     expect(mock).toHaveBeenCalledWith(ERROR_CODE)
+    mock.mockRestore()
   } catch {}
 })
 
