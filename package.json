@@ -8,7 +8,7 @@
     "contents": "bin/index.js"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "files": [
     "bin/",
