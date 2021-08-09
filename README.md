@@ -1,5 +1,7 @@
 # Epub Knowledge Contents
 
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/epubknowledge/contents) ![Code Climate issues](https://img.shields.io/codeclimate/issues/epubknowledge/contents) ![Github code size](https://img.shields.io/github/languages/code-size/epubknowledge/contents) ![GitHub issues](https://img.shields.io/github/issues/epubknowledge/contents) ![GitHub last commit](https://img.shields.io/github/last-commit/epubknowledge/contents) [![GitHub forks](https://img.shields.io/github/forks/epubknowledge/contents)](https://github.com/epubknowledge/contents/network) [![GitHub stars](https://img.shields.io/github/stars/epubknowledge/contents)](https://github.com/epubknowledge/contents/stargazers) ![Version](https://img.shields.io/github/package-json/v/epubknowledge/contents/main)
+
 This package is a foundation block intended to be used for other NPM packages and is designed to retrieve all contents of a passed directory and return it as an object.
 
 ## Install

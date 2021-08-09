@@ -1,0 +1,8 @@
+## exclude
+exclude_patterns:
+  - '__tests__/'
+  - '.github/'
+  - '.vscode/'
+  - 'examples/'
+  - 'regex/'
+  - 'examples.md'
