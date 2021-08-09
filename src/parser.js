@@ -1,4 +1,4 @@
-const path = require('path')
+path = require('path')
 const glob = require('glob')
 
 const cutter = require('./cutter')

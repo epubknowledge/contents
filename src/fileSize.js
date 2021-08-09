@@ -1,4 +1,4 @@
-const fs = require('fs')
+fs = require('fs')
 const chalk = require('chalk')
 
 module.exports = f => {

@@ -1,4 +1,4 @@
-const path = require('path')
+path = require('path')
 
 const testDir = require('../setup')
 const fileSize = require('../../src/fileSize')
@@ -15,6 +15,7 @@ test('Test with bad file path', async () => {
     const mock = jest.spyOn(process, 'exit').mockImplementation(() => {})
     await fileSize(badPath)
     expect(mock).toHaveBeenCalledWith(ERROR_CODE)
+    mock.mockRestore()
   } catch {}
 })
 

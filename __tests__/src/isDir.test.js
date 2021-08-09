@@ -1,4 +1,4 @@
-const path = require('path')
+path = require('path')
 
 const isDir = require('../../src/isDir')
 

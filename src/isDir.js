@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+fs = require('fs')
+path = require('path')
 const chalk = require('chalk')
 
 module.exports = dir => {
