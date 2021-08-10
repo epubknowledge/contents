@@ -1,6 +1,6 @@
 {
   "name": "@epubknowledge/contents",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NPM Package that gets ePub contents from a passed directory and returns as object",
   "main": "bin/index.js",
   "bin": {
@@ -47,6 +47,7 @@
     "contents"
   ],
   "author": "codingChewie",
+  "license": "see license in LICENSE",
   "bugs": {
     "url": "https://github.com/epubknowledge/contents/issues"
   },
